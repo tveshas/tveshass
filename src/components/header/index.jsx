@@ -2,7 +2,20 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.jpeg';
+import { StaticImage } from "gatsby-plugin-image"
+
+export function Profile() {
+  return (
+    <StaticImage
+      src="../../images/profile.jpeg"
+      alt="Profile picture"
+      placeholder="blurred"
+      layout="fixed"
+      width={200}
+      height={200}
+    />
+  )
+}
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
