@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/tveshass",
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://tanyjnaaman.github.io`,
+    siteUrl: `https://tveshas.github.io/tveshass/`,
     // Your Name
     name: "Tvesha Singh",
     // Main Site Title
