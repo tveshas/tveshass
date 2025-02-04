@@ -41,7 +41,7 @@ Outside of computer science, I love making cinamtic films, enjoy playing tennis,
           "https://dududu33.streamlit.app/",
       },
       {
-        name: "Handwritten MNIST digits generator",
+        name: "Handwritten MNIST digits generator (Based on the original GAN paper by Goodfellow et al)",
         description: `PyTorch-based Generative Adversarial Network (GAN) that generates handwritten digit images using the MNIST dataset, implementing a sophisticated generator and discriminator architecture with custom loss functions. `,
         link: "",
       },
