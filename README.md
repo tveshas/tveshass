@@ -1,6 +1,7 @@
 # Minimalist portfolio website
 
 In this repository, I build my own portfolio website. See it live [here](https://tveshas.github.io/tveshass/).
+Most of your edits will be in config.js
 
 ## Credit where credit is due
 
