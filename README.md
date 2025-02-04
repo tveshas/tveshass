@@ -1,11 +1,10 @@
 # Minimalist portfolio website
 
-In this repository, I build my own portfolio website. See it live [here](https://tanyjnaaman.github.io/).
+In this repository, I build my own portfolio website. See it live [here](https://tveshas.github.io/tveshass/).
 
 ## Credit where credit is due
 
-- [devFolio](https://github.com/RyanFitzgerald/devfolio) by Ryan Fitzgerald
-- [Developer's Portfolio](https://github.com/hashirshoaeb/home) by Hashir Shoaib
+- [The template I followed](https://github.com/tanyjnaaman/minimalist-portfolio-website?tab=readme-ov-file) by Naaman Tan
 
 ## To deploy
 
