@@ -1,5 +1,5 @@
 ---
-title: We Need More Women In STEM
+title: We Need More Women In STEM (5 minute read)
 date: "2024-11-22T12:00:00.00Z"
 description: "If you too are thinking about this, let's talk."
 ---
