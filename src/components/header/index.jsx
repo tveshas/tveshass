@@ -1,7 +1,6 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-import { StaticImage } from "gatsby-plugin-image"
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -12,8 +11,7 @@ const classes = {
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -27,12 +25,10 @@ const Header = ({ metadata = {}, noBlog = false }) => {
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
         <Link to="/">
-          <StaticImage
-            src="../../images/profile.jpeg"
+          <img
+            src="https://github.com/tveshas/tveshass/blob/main/src/images/profile.jpeg?raw=true"
             alt={metadata.name || "Profile"}
             className={classes.image}
-            placeholder="blurred"
-            layout="fixed"
             width={200}
             height={200}
           />
