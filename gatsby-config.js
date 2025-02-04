@@ -38,7 +38,7 @@ Outside of computer science, I love making cinamtic films, enjoy playing tennis,
         name: "Verstappen's Race predictor",
         description: `Neural network model predicts Formula 1 driver Verstappen's race outcome based on various pre-race and qualifying performance metrics.`,
         link:
-          "",
+          "https://dududu33.streamlit.app/",
       },
       {
         name: "Handwritten MNIST digits generator",
