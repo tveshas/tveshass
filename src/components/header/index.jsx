@@ -1,21 +1,7 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-
 import { StaticImage } from "gatsby-plugin-image"
-
-export function Profile() {
-  return (
-    <StaticImage
-      src="../../images/profile.jpeg"
-      alt="Profile picture"
-      placeholder="blurred"
-      layout="fixed"
-      width={200}
-      height={200}
-    />
-  )
-}
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -41,7 +27,15 @@ const Header = ({ metadata = {}, noBlog = false }) => {
     <div className={classes.wrapper}>
       <div className={classes.imageWrapper}>
         <Link to="/">
-          <img className={classes.image} src={profileImg} alt={metadata.name} />
+          <StaticImage
+            src="../../images/profile.jpeg"
+            alt={metadata.name || "Profile"}
+            className={classes.image}
+            placeholder="blurred"
+            layout="fixed"
+            width={200}
+            height={200}
+          />
         </Link>
       </div>
       <div className={classes.contentWrapper}>
@@ -53,10 +47,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <ul className={classes.list}>
           {email && (
             <li className={classes.item}>
-              <a
-                className={classes.link}
-                href={`mailto:${email}`}
-              >
+              <a className={classes.link} href={`mailto:${email}`}>
                 Email
               </a>
             </li>
@@ -96,8 +87,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           )}
-          
-
         </ul>
       </div>
     </div>
