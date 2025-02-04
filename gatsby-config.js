@@ -43,19 +43,13 @@ Outside of computer science, I love making cinamtic films, enjoy playing tennis,
       {
         name: "Handwritten MNIST digits generator (Based on the original GAN paper by Goodfellow et al)",
         description: `PyTorch-based Generative Adversarial Network (GAN) that generates handwritten digit images using the MNIST dataset, implementing a sophisticated generator and discriminator architecture with custom loss functions. `,
-        link: "",
+        link: "https://github.com/tveshas/mnist-gan",
       },
       {
         name: "Celestial Mechanics Stimulator",
         description: `Developed a physics-based planetary system model that demonstrates advanced computational visualization techniques in astronomical simulation. `,
         link:
-          "",
-      },
-      {
-        name: "Menstrual Cycle tracker",
-        description: `The application provides real-time insights by calculating next period dates, tracking flow levels.`,
-        link:
-          "",
+          "https://github.com/tveshas/planet-stimulation",
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
