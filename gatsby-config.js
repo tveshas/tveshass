@@ -35,15 +35,15 @@ Outside of computer science, I love making cinamtic films, enjoy playing tennis,
         link: "https://github.com/tveshas/spotify-roast/tree/main",
       },
       {
-        name: "Verstappen's Race predictor",
-        description: `Neural network model predicts Formula 1 driver Verstappen's race outcome based on various pre-race and qualifying performance metrics.`,
-        link:
-          "https://dududu33.streamlit.app/",
-      },
-      {
         name: "Handwritten MNIST digits generator (Based on the original GAN paper by Goodfellow et al)",
         description: `PyTorch-based Generative Adversarial Network (GAN) that generates handwritten digit images using the MNIST dataset, implementing a sophisticated generator and discriminator architecture with custom loss functions. `,
         link: "https://github.com/tveshas/mnist-gan",
+      },
+      {
+        name: "Verstappen's Race predictor",
+        description: `Neural network model predicts Formula 1 driver Verstappen's race outcome based on various pre-race and qualifying performance metrics.`,
+        link:
+          "https://github.com/tveshas/dududu33/tree/main",
       },
       {
         name: "Celestial Mechanics Stimulator",
