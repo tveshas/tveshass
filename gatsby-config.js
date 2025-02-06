@@ -26,7 +26,7 @@ At university, I dedicate much of my time to machine learning and its adjacent f
 I write tech blogs about pretty cool things and insights I gathered while learning. Check my Medium out.
 I am also deeply passionate about advocating for women empowerment and financial independence. It is something I believe is utterly essential in this time. We need more women in tech contributing to innovation. If you are interested in learning more about my thoughts on this topic, you can check out my blog where I dive deeper into these issues (:
 
-Outside of computer science, I love making cinamtic films, enjoy playing tennis, and cheering for Ferrari in Formula 1. Lately, My mind has been drawn to the wisdom of ages - exploring the depths of the Bhagavad Gita's teachings alongside Socrates' timeless insights. There's something deeply moving about seeing how these ancient perspectives still speak to our modern questions about life and truth. `,
+Outside of computer science, I love making cinematic films, enjoy playing tennis, and cheering for Ferrari in Formula 1. Lately, My mind has been drawn to the wisdom of ages - exploring the depths of the Bhagavad Gita's teachings alongside Socrates' timeless insights. There's something deeply moving about seeing how these ancient perspectives still speak to our modern questions about life and truth. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
