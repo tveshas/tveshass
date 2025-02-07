@@ -66,7 +66,7 @@ Outside of computer science, I love making cinematic films, enjoy playing tennis
       },
       {
         name: "AWS Cloud Club, IGDTUW",
-        description: "Contributed to the club by designing engaging articles and actively participating in AWS sessions conducted by industry experts, enhancing my knowledge of cloud technologies.",
+        description: "Contributed to the club by designing engaging articles and actively participating in AWS sessions conducted by industry experts, enhancing my knowledge of cloud technologies. I was exposed to a real-time analytics dashboard using EC2, S3, and Lambda, which reduced query response times by 30% for 200+ active users.",
         link: "",
       },
       {
