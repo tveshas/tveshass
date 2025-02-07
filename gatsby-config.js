@@ -61,7 +61,7 @@ Outside of computer science, I love making cinematic films, enjoy playing tennis
       },
       {
         name: "TryCrypto",
-        description: "Worked as a Technical Discord Manager for a fintech startup, fostering a builder community focused on simplifying decentralized technology for mainstream adoption.",
+        description: "Gained practical, real-world experience in blockchain technologies and decentralized application architectures through daily interactions with developers and users. Worked as a Technical Discord Manager to manage 5000+ users for a fintech startup, fostering a builder community.",
         link: "",
       },
       {
