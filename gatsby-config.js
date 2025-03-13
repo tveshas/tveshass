@@ -30,6 +30,11 @@ Outside of computer science, I love making cinematic films, enjoy playing tennis
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: "AI Poly Agent (Won Hackathon)",
+        description: `Award-winning Flask application integrating Perplexity AI to analyze cryptocurrency market opportunities on Polymarket, featuring regex-based URL parsing, SpacyTokenizer for market search, and interactive data visualization with comprehensive confidence ratings and cited source explanations.`,
+        link: "https://github.com/kumar-shridhar/AI-Poly-Agent/tree/main",
+      },
+      {
         name: "Spotify Analyser",
         description: `AI gives it's two cents on your Spotify profile. It analyses your listening habits and you get witty, and culturally relevant insights into your musical preferences.`,
         link: "https://github.com/tveshas/spotify-roast/tree/main",
