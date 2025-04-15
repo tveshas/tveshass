@@ -30,6 +30,11 @@ Outside of computer science, I love making cinematic films, enjoy playing tennis
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: "Pink Neurons (Won Hackathon)",
+        description: `An interactive visual learning platform that leverages Manim (Mathematical Animation Engine) to create engaging visualizations of complex CS and mathematical concepts in less than 240 seconds. `,
+        link: "https://github.com/tveshas/pink_neurons",
+      },
+      {
         name: "AI Poly Agent (Won Hackathon)",
         description: `Award-winning Flask application integrating Perplexity AI to analyze cryptocurrency market opportunities on Polymarket, featuring regex-based URL parsing, SpacyTokenizer for market search, and interactive data visualization with comprehensive confidence ratings and cited source explanations.`,
         link: "https://github.com/kumar-shridhar/AI-Poly-Agent/tree/main",
