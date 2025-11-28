@@ -8,7 +8,7 @@ module.exports = {
     // Main Site Title
     title: `Tvesha | Computer Scientist`,
     // Description that goes under your name in main bio
-    description: `Computer Science undergraduate with a strong passion for Machine Learning and Physics. If you need an engineer who can quickly prototype concepts and scale them up, I could be the person you’re looking for.`,
+    description: `Computer Science undergraduate with a strong passion for Machine Learning and Physics. If you need an engineer who can quickly prototype concepts and scale them up, I could be the person you're looking for.`,
     // Optional: Twitter account handle
     author: `https://medium.com/@tveshasingh25`,
     // Optional: email address
@@ -20,7 +20,7 @@ module.exports = {
     // Optional: link to resume
     resume: ``,
     // Content of the About Me section
-    about: `Hey there, I am Tvesha, a second-year Computer Science student at Indira Gandhi Delhi Technical University for Women. Alongside this, I am also pursuing Data Science at the Indian Institute of Technology, Madras. 
+    about: `Hey there, I am Tvesha, a third-year Computer Science student at Indira Gandhi Delhi Technical University for Women. Alongside this, I am also pursuing Data Science at the Indian Institute of Technology, Madras. 
 Ever since I took Applied Physics, it lit a deep fascination with quantum mechanics, which naturally led me to explore the world of machine learning.
 At university, I dedicate much of my time to machine learning and its adjacent fields—such as computer vision, natural language processing, and distributed systems—all of which I find pretty neat.
 I write tech blogs about pretty cool things and insights I gathered while learning. Check my Medium out.
@@ -29,6 +29,16 @@ I am also deeply passionate about advocating for women empowerment and financial
 Outside of computer science, I love making cinematic films, enjoy playing tennis, and cheering for Ferrari in Formula 1. Lately, My mind has been drawn to the wisdom of ages - exploring the depths of the Bhagavad Gita's teachings alongside Socrates' timeless insights. There's something deeply moving about seeing how these ancient perspectives still speak to our modern questions about life and truth. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: "Quantum Computing Blog",
+        description: `Technical blog exploring quantum computing fundamentals, quantum algorithms, and their applications. Covers topics including quantum gates, superposition, entanglement, and quantum machine learning with detailed explanations and visualizations.`,
+        link: "https://charming-gumdrop-dacf29.netlify.app/",
+      },
+      {
+        name: "Custom Operating System",
+        description: `Built a bootable OS from scratch with custom bootloader, 32-bit protected mode kernel, VGA graphics driver, and multi-window GUI system running on bare metal hardware using C and x86 Assembly.`,
+        link: "https://github.com/tveshas/SimpleOS",
+      },
       {
         name: "Pink Neurons (Won Hackathon)",
         description: `An interactive visual learning platform that leverages Manim (Mathematical Animation Engine) to create engaging visualizations of complex CS and mathematical concepts in less than 240 seconds. `,
@@ -64,6 +74,21 @@ Outside of computer science, I love making cinematic films, enjoy playing tennis
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name: "Research: Quantum Machine Learning for Computational Social Science",
+        description: "Developing a quantum ML framework to analyze interdependencies between political inclination, national happiness, economic freedom, and crime rates across 8-10 countries over 15 years using quantum clustering, qPCA, and kernel QSVM. Addressing challenges in handling noisy, adversarial, and culturally contextual social data where classical methods fail to capture time-delayed interactions. Won college-level Quantum Computing Ideathon (2024).",
+        link: "",
+      },
+      {
+        name: "Research: Atmospheric Propagation of Gaussian Beams",
+        description: "Worked as Research Assistant under Physics Professor at IGDTUW. Converted MATLAB code to Python for simulating atmospheric propagation of Gaussian beams, implementing numerical methods for solving wave propagation equations and contributing to research on optical beam behavior in turbulent media.",
+        link: "",
+      },
+      {
+        name: "ScoreMe - AI/ML Intern",
+        description: "Building agentic AI implementation for automated bank statement analysis, developing multi-agent systems for transaction categorization, fraud detection, and financial health assessment. Implementing LLM-based agents to extract insights from unstructured financial documents, improving processing accuracy by integrating domain-specific prompting strategies.",
+        link: "https://scoreme.in/bank-statement-analyzer/",
+      },
       {
         name: "Mentorship under Distinguished Engineer of IBM, India",
         description: "I worked on implementing a service mesh architecture using HashiCorp Consul to enhance the resilience of microservices. This included configuring service discovery, real-time health monitoring, secure communication, and traffic management to prevent cascading failures. By enabling features like automatic failover, circuit breaking, and cross-datacenter replication, I demonstrated how such an architecture could mitigate large-scale outages, such as those experienced by platforms like Paytm.",
