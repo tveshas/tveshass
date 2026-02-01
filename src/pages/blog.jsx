@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import React from 'react';
 
 import BlogPosts from '../components/blog-posts';
@@ -19,7 +19,14 @@ const Index = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Header metadata={data.site.siteMetadata} />
-      {!noBlog && <BlogPosts posts={posts} />}
+      {!noBlog && (
+        <>
+          <Link className="inline-block py-2 text-xs text-gray-600 hover:text-black" to="/">
+            ← Home
+          </Link>
+          <BlogPosts posts={posts} />
+        </>
+      )}
     </Layout>
   );
 };

@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import moment from 'moment';
 import React from 'react';
 
@@ -10,6 +10,7 @@ const classes = {
   wrapper: 'mt-16 blog-content',
   title: 'mt-16 text-4xl text-gray-900 font-bold',
   date: 'text-gray-600 font-light',
+  homeLink: 'inline-block py-2 text-xs text-gray-600 hover:text-black',
 };
 
 const BlogPost = ({ data }) => {
@@ -19,6 +20,9 @@ const BlogPost = ({ data }) => {
     <Layout>
       <Header metadata={data.site.siteMetadata} />
       <SEO title={post.frontmatter.title} />
+      <Link className={classes.homeLink} to="/">
+        ← Home
+      </Link>
       <h1 className={classes.title}>{post.frontmatter.title}</h1>
       <p className={classes.date}>
         Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}
