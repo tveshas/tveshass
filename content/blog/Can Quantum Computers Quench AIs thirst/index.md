@@ -14,7 +14,7 @@ In 2025, AI systems consumed between 312.5 and 764.6 billion liters of water, ma
 
 Source: [https://www.cell.com/patterns/fulltext/S2666-3899(25)00278-8](https://www.cell.com/patterns/fulltext/S2666-3899(25)00278-8)
 
-Google's water consumption in 2024 was enough to supply Delhi, a city of 32 million people, for nearly 7 days. And it's accelerating. Google's water usage tripled between 2016 and 2024.
+Google's water consumption in 2024 was enough to supply Delhi, a city of 32 million people, for nearly 7 days. And it's accelerating. Google's water usage tripled between 2016 and 2024. This reflects AI's explosive growth in helping with everything from medical diagnostics to climate modeling, but the resource cost is steep.
 
 Notice who's missing: OpenAI, Anthropic, and most AI startups. They don't own data centers. ChatGPT runs on Microsoft's Azure. Claude runs on Google Cloud and AWS. Their water footprint is hidden inside these tech giants' numbers.
 
@@ -50,7 +50,8 @@ Even in an optimistic case where 10 to 30% of AI computation moves to quantum by
 
 ## A Partial Solution, Not a Silver Bullet
 
-AI consumed up to 764 billion liters of water in 2025, enough to supply Delhi for two weeks or quench the thirst of 700 million people for a year. This isn't sustainable, especially as AI adoption accelerates.
+AI consumed up to 764 billion liters of water in 2025, enough to supply Delhi for two weeks or quench the thirst of 700 million people for a year. This isn't sustainable, especially as AI adoption accelerates. AI's benefits are undeniable, it's accelerating scientific research, improving healthcare accessibility, and helping tackle climate change. But we need to deliver these benefits more sustainably.
+
 
 Quantum computing offers genuine hope, but tempered hope. For specific tasks like database search and optimization, quantum algorithms can reduce operations by 100 to 1000x. Fewer operations mean less heat, less cooling, and less evaporated water. The physics is sound.
 
@@ -58,4 +59,4 @@ But quantum won't replace AI infrastructure. It will complement it. Hybrid syste
 
 The real solution is multi-pronged: better algorithms (classical and quantum), renewable energy powering data centers, advanced cooling technologies, water recycling systems, and policy limiting consumption in water-stressed regions. Quantum is one tool in this toolkit.
 
-The question isn't whether quantum will save us from AI's thirst. It's whether we'll deploy all available solutions, quantum included, before the cost becomes unbearable. The technology exists. The timeline is 2030 to 2040. The choice is ours.
+The question isn't whether quantum will save us from AI's thirst. It's whether we'll deploy all available solutions, quantum included, before the cost becomes unbearable. The technology exists. The choice is ours.
