@@ -22,7 +22,9 @@ Most industries use water and return it. Data centers evaporate it. 80% disappea
 
 We're evaporating enough water to solve drinking water crises while communities ration water use during droughts.
 
-*[Picture 3 to be added]*
+![AI and water illustration](./picture3.jpeg)
+
+*Shoutout to [@yums.doodles](https://instagram.com/yums.doodles) on Instagram for the illustration.*
 
 ## Why Does AI Drink So Much?
 
