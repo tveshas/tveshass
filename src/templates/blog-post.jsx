@@ -20,8 +20,8 @@ const BlogPost = ({ data }) => {
     <Layout>
       <Header metadata={data.site.siteMetadata} />
       <SEO title={post.frontmatter.title} />
-      <Link className={classes.homeLink} to="/">
-        ← Home
+      <Link className={classes.homeLink} to="/blog">
+        ← Blog
       </Link>
       <h1 className={classes.title}>{post.frontmatter.title}</h1>
       <p className={classes.date}>
